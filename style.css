@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.desktop-bg {
+    display: inline-flex;
+    
+}
+
+.front-card {
+    position: absolute;
+}
+
+.back-side-card {
+    position: absolute;
+}

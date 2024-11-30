@@ -8,44 +8,32 @@
   
   <title>Frontend Mentor | Interactive card details form</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  0000 0000 0000 0000
-  Jane Appleseed
-  00/00
-
-  000
-
-  Cardholder Name
-  e.g. Jane Appleseed
-
-  Card Number
-  e.g. 1234 5678 9123 0000
-
-  Exp. Date (MM/YY)
-  MM
-  YY
-
-  CVC
-  e.g. 123
-
-  Confirm
-
-  <!-- Completed state start -->
-
-  Thank you!
-  We've added your card details
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <section class="main">
+      <section class="desktop-bg">
+        <img class="bg-desktop-img" src="./images/bg-main-desktop.png" alt="bg desktop">
+        <section class="succesfull-register">
+          <img class="complete-icon" src="./images/icon-complete.svg" alt="icon complete">
+          <h2 class="Thank">Thank you!</h2>
+          <p class="text">We've added your card details</p>
+          <button class="continue">Continue</button>
+        </section>
+      </section>
+      <section class="front-card">
+        <img class="front-card-logo" src="./images/card-logo.svg" alt="card logo">
+        <img class="front-card-img" src="./images/bg-card-front.png" alt="front card">
+        <p class="card-num">4441 1144 3183 7325</p>
+        <p class="card-name">ARTUR KOZAKOV</p>
+        <p class="card-date">10/35</p>
+      </section>
+      <section class="back-side-card">
+        <img class="back-card-img" src="./images/bg-card-back.png" alt="back side of card">
+        <p class="CVV">888</p>
+      </section>
+    </section>
+  </main>
 </body>
 </html>
