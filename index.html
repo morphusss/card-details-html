@@ -11,29 +11,32 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <section class="main">
-      <section class="desktop-bg height width">
-        <img class="bg-desktop-img height" src="./images/bg-main-desktop.png" alt="bg desktop">
-        <section class="successful-register height width">
-          <img class="complete-icon" src="./images/icon-complete.svg" alt="icon complete">
-          <h2 class="Thank font margin">THANK YOU!</h2>
-          <p class="text font margin">We've added your card details</p>
-          <button class="continue-btn font color">Continue</button>
+  <main class="main font">
+    <section class="left-container">
+      <img class="left-container-image" src="./images/bg-main-desktop.png" alt="bg desktop">
+      <section class="card-sides-placement">
+        <section class="card-front-side">
+          <img class="card-front-image" src="./images/bg-card-front.png" alt="front card">
+          <div class="card-front-side-data color-white">
+            <img class="front-card-logo" src="./images/card-logo.svg" alt="card logo">
+            <p class="card-num">4441 1144 3183 7325</p>
+            <p class="card-name">ARTUR KOZAKOV</p>
+            <p class="card-date">10/35</p>
+          </div>
+        </section>
+        <section class="card-back-side">
+          <img class="card-back-side-image" src="./images/bg-card-back.png" alt="back side of card">
+          <p class="card-back-side-cvv color-white">888</p>
         </section>
       </section>
-      <section class="front-card abs">
-        <img class="front-card-logo abs" src="./images/card-logo.svg" alt="card logo">
-        <p class="card-num font abs color">4441 1144 3183 7325</p>
-        <p class="card-name font abs color">ARTUR KOZAKOV</p>
-        <p class="card-date font abs color">10/35</p>
-        <img class="front-card-img" src="./images/bg-card-front.png" alt="front card">
-      </section>
-      <section class="back-side-card abs">
-        <p class="CVV font abs color">888</p>
-        <img class="back-card-img" src="./images/bg-card-back.png" alt="back side of card">
-      </section>
     </section>
+    <section class="right-container">
+      <section class="successful-register"> 
+          <img class="complete-icon" src="./images/icon-complete.svg" alt="icon complete">
+          <h2 class="Thank margin-top">THANK YOU!</h2>
+          <p class="text margin-top">We've added your card details</p>
+          <button class="continue-btn font color-white">Continue</button>
+      </section>
   </main>
 </body>
 </html>
